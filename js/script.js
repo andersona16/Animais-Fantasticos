@@ -1,12 +1,6 @@
-const hrefPagina = window.location.href;
-console.log(hrefPagina)
+const animais = document.getElementById('animais')
+console.log(animais)
 
+const gridSection = document.getElementsByClassName('grid-section')
+console.log(gridSection[0])
 
-const elementoAtivo = document.querySelector('.ativo')
-
-
-const linguagem = window.navigator.language;
-console.log(linguagem)
-
-const windowWidth = window.innerWidth;
-console.log(windowWidth)
